@@ -19,7 +19,9 @@
     }
   ],
   "require": {
-    "php": ">=7"
+    "php": ">=7",
+    "psr/container": "^1",
+    "reliv/zf-config-factories": "^4"
   },
   "require-dev": {
     "phpunit/phpunit": "5.*"
