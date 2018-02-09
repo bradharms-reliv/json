@@ -1,0 +1,34 @@
+{
+  "name": "reliv/json",
+  "description": "Basic json helper/utility",
+  "type": "library",
+  "license": "ISC",
+  "keywords": [
+    "reliv",
+    "json",
+    "helper",
+    "utility"
+  ],
+  "minimum-stability": "stable",
+  "homepage": "https://github.com/reliv/json",
+  "authors": [
+    {
+      "name": "James Jervis",
+      "email": "jjervis@relivinc.com",
+      "homepage": "https://github.com/jerv13"
+    }
+  ],
+  "require": {
+    "php": ">=7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.*"
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Reliv\\Json\\": "/src"
+    }
+  }
+}
